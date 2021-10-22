@@ -65,7 +65,8 @@
   margin-left: 10px;
 }
 
-.button__footer {
+.button-footer {
+  @extend %button;
   display: flex;
   justify-content: center;
   align-items: center;
