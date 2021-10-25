@@ -17,7 +17,7 @@
   border-radius: 4px;
   color: $icon;
   fill: currentColor;
-  @include transition-two (fill, border-color);
+  @include transition-two(fill, border-color);
   &:focus,
   &:hover {
     fill: $accent-color;
